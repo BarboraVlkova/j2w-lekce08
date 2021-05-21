@@ -18,6 +18,12 @@ import java.time.LocalDate;
  * <p>
  * Pojmenování properties musí zůstat zachováno, protože odpovídá názvům sloupečků v databázové tabulce. Stejně tak musí být zachováno jméno třídy, odpovídá
  * jménu tabulky v databázi.
+ *
+ * @Entity - je primo na tride a rika Springu, aby hledal v teto entite
+ * @Id - jednoznacny identifikator v databazi
+ * @GeneratedValue - rika, jak se id generuji
+ *      strategy = jakym zpusobem se id generuje
+ *      GenerationType.IDENTITY = samotna databaze, umi sama prirazovat cisla
  */
 @Entity
 public class Osoba {
